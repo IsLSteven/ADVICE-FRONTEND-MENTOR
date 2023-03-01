@@ -14,8 +14,8 @@ body {
 }
 
 .bloco-preto {
-    width: 540px;
-    height: 330px;
+    width: 33.75em;
+    height: 20.625em;
     background-color: #313a49;
     display: flex;
     flex-direction: column;
@@ -63,12 +63,12 @@ button:hover {
 
 }
 
-@media(min-width: 768px){
-    .advice{
+@media(max-width: 768px){
+    .bloco-preto{
         padding-inline: 50px;
         width: 386px;
     }
-    .advice p{
+    .bloco-preto p{
         font-size: 21px;
         padding: 26px;
     }
